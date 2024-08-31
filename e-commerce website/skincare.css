@@ -1,0 +1,30 @@
+.product1{
+    display:flex;
+    flex-wrap:wrap;
+    gap:5px;
+    padding:20px;
+    flex-direction:row;
+    justify-content:space-evenly;
+    
+}
+.product1-card{
+    border-radius:20px;
+}
+.product1-card img{
+    object-fit:cover;
+    height:400px;
+    width:300px;
+}
+.product1-info{
+    padding:15px;
+    width:100%;
+    height: 200px;
+}
+.btn3{
+    padding:5px 100px;
+    border-radius:20px;
+
+}
+.btn3:hover{
+    background-color:orange;
+}

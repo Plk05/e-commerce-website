@@ -1,0 +1,61 @@
+
+.kiya-section{
+    margin-top:100px;
+    background-color: white;
+}
+.products{
+    background-color: white;
+    margin:auto;
+}
+.product-info{
+    padding:15px;
+    width:100%;
+    height: 150px;
+    flex:1;
+}
+.product-info h4{
+    font-size:x-large;
+}
+.product-info p{
+    font-size:large;
+}
+.product-card{
+    box-shadow : 0 1px 3px black;
+    transition: transform 0.3s;
+}
+.product-card:hover{
+    transform:translateY(-20px);
+}
+.product-card img{
+    width:100%;
+    object-fit:cover;
+}
+.product-info button{
+    padding :10px;
+    border:none;
+    border-radius: 9px;
+    font-size:15px;
+    width:100%;
+    font-weight:600;
+}
+.product-info button:hover{
+    background-color:orange;
+}
+#kiya1:hover{
+    content:url(/images/kiya/kiya11.jpg);
+    
+}
+#kiya2:hover{
+    content:url(/images/kiya/kiya21.jpg);
+}
+#kiya3:hover{
+    content:url(/images/kiya/kiya31.jpg);
+}
+.kiya-brand h1{
+    text-align:center;
+    font-weight:900;
+    font-size:X-large;
+    margin-top:20px;
+    color:white;
+    margin-bottom: 20px;
+}

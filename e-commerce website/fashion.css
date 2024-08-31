@@ -1,0 +1,45 @@
+.carousel .slide .carousel-fad{
+    margin-top:200px;
+    
+}
+#carouselExampleFade .carousel-item{
+    margin-top:80px;
+    filter:invert(10%);
+}
+
+.heading{
+    text-align:center;
+    font-weight:900;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+.products{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap:10px;
+    padding:30px;
+
+
+}
+.product-card{
+    border-radius:20px;
+}
+.product-card img{
+    object-fit:cover;
+}
+.product-info{
+    padding:15px;
+    width:100%;
+    height: 200px;
+}
+.btn1{
+    padding:5px 100px;
+    border: 2px solid black;
+    border-radius:20px;
+
+}
+.btn1:hover{
+    background-color:orange;
+}
